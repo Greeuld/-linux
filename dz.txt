@@ -1,0 +1,47 @@
+Задание №1
+
+sudo useradd -p 1233214 user_new
+chmod o+w hello.py
+ls -l hello.py
+# -rw-rw-rw- 1 alina alina 22 июл 23 12:11 hello.py
+
+Заание №2
+su user_new
+Пароль: *******
+# user_new@AlinaDell:/home/alina$ 
+
+vim hello.py
+
+*нажимаем i*
+*вводим*
+print("Hello Everyone!")
+
+*нажимаем esc*
+*вводим*
+:wq
+
+Задание №3
+
+su user_new
+Пароль: *******
+# user_new@AlinaDell:/home/alina$ 
+
+vim new_file.py
+
+*i*
+
+from time import sleep
+
+i = 1
+while i < 11:
+   print(i)
+   i = i + 1
+   sleep(1)
+
+*esc*
+
+:wq
+
+
+
+
